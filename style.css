@@ -1,0 +1,115 @@
+/* font import */
+/* //roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+/* orbitron digital font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+/* variables */
+:root {
+    --light-blue: #0D1B2E;
+    --pure-white: #FFF;
+    --off-white: #ededed;
+    --light-red: #E95D0f;
+    --light-greeny: #429890;
+}
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, button, input, select, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+.masthead {
+    padding: 1em 2em;
+    background-color: var(--light-blue);
+    color: var(--pure-white);
+    text-align: center;
+}
+
+.masthead h1 {
+    font-weight: 900;
+}
+
+.intro {
+    padding: 2em;
+    color: var(--pure-white);
+    background-color: var(--light-greeny);
+}
+
+.intro p, .text-area {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 550px;
+}
+
+.text-area {
+    margin-bottom: 3em;
+    padding: 0 2em;
+    /* border: 2px solid red; */
+}
+
+.text-wrapper {
+    border: 10px solid grey;
+    border-radius: 5px;
+    display: flex;
+}
+
+#origin-text {
+    margin: 1em 0;
+    padding: 1em 1em 0;
+    background-color: var(--off-white);
+}
+
+#origin-text p {
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+.text-wrapper textarea {
+    width: 100%;
+}
+
+.meta {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.timer {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#reset {
+    padding: .5em 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--light-red);
+    background-color: var(--pure-white);
+    border: 10px solid var(--light-red);
+    transition: .3s ease-in;
+}
+
+#reset:hover {
+    color: var(--pure-white);
+    background-color: var(--light-red);    
+}
+

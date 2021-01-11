@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom style -->
+    <link rel="stylesheet" href="style.css">
+    <title>Typing Speed</title>
+</head>
+<body>
+    <header class="masthead">
+        <h1>Test your typing speed</h1>
+    </header>
+    <main class="main">
+        <article class="intro">
+            <p>This is a typing test app. Your goal is to duplicate the provided text, exactly in the field below.</p>
+        </article>
+        <!-- text to type -->
+        <section class="text-area">
+            <div id="origin-text">
+                <p>The text to test.</p>
+            </div>
+            <!-- text typing area -->
+            <div class="text-wrapper"><textarea name="textarea" id="text-area" cols="6"
+                 rows="5" placeholder="Clock starts with typing"></textarea>
+            </div>
+
+            <div class="meta">
+                <section id="clock">
+                    <div class="timer">00:00:00</div>
+                </section>
+
+                <button id="reset">Start Over</button>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
