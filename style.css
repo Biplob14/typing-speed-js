@@ -50,6 +50,7 @@ b, strong {
     padding: 2em;
     color: var(--pure-white);
     background-color: var(--light-greeny);
+    visibility: hidden;
 }
 
 .intro p, .text-area {
@@ -64,6 +65,9 @@ b, strong {
     /* border: 2px solid red; */
 }
 
+#text-area:hover {
+    border: 1px solid #676b6c;
+}
 .text-wrapper {
     border: 10px solid grey;
     border-radius: 5px;
@@ -74,6 +78,10 @@ b, strong {
     margin: 1em 0;
     padding: 1em 1em 0;
     background-color: var(--off-white);
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #origin-text p {
